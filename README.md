@@ -17,7 +17,7 @@ restarts.
 |---|---|
 | Base | `node:22-bookworm-slim` |
 | Claude Code | pinned by `CLAUDE_CODE_VERSION` in the Dockerfile, auto-updater off |
-| Tools | ttyd, tmux, git, ssh, jq, ripgrep, python3, nano |
+| Tools | ttyd 1.7.7 (static release binary), tmux, git, ssh, jq, ripgrep, python3, nano |
 | User | `claude`, uid/gid 1000, home `/home/claude` (mount a volume here) |
 | Port | 7681 |
 
